@@ -1,123 +1,91 @@
-
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-body {
-    font-family: 'Arial', sans-serif; /* Change this to any font you like */
-    
-    color: #333; 
-}
-
-.main {
-    max-width: 1700px; 
-    margin: 0 auto; 
-    background-color: #fff;
-}
+.main{
+  position: relative;
+  width: 100;
+  height: 100vh;
   
-
-
-
-header {
-    display: flex; 
-    justify-content: space-between;
-    align-items: center; 
-    width:100%;
-    padding: 10px 0px;
-    border-bottom:1px thin #e0e0e0; 
-    background-color: #2c3e50;
 }
-
-.logo {
-    border-radius: 50%; }
-nav {
-    display: flex;
-position:absolute;
-top:100px;
-left:600px; }
-
-
-
-
-nav ul {
-    list-style-type: none; 
-    display: flex; 
-    gap: 50px; 
- margin-left: 20px;
-}
-
-nav ul li {
-    display: inline; 
-}
-
-nav ul li a {
-    text-decoration: none; 
-    color: #fff; 
-    padding: 5px 10px; 
-    border-radius: 5px;
-    transition: background-color 0.3s;
-
+header{
+  width: 100%;
+  background: #061978;
+  height: 100px;
 
 }
 
-nav ul li a:hover {
-    background-color: #e0e0e0; 
+nav{
+  display: flex;
+  width: 84%;
+  margin: left;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+
+  height: 100px;
+  width: 150px;
+  object-fit: contain;
+  mix-blend-mode:color-dodge;
+  margin-left: 10px;
 }
 
-.content {
-    padding: 40px 0; 
-    text-align: center;
+nav ul li{
+  display:inline-block;
+  list-style: none;
+  margin: 40px 40px;
+  margin-inline: 45px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fafbf5e2;
+  font-weight: bold;
+}
+h2{
+  color: #f01b1b;
 }
 
-.content img {
-    border-radius: 50%;
-    margin-bottom: 20px; 
+nav ul li a:hover{
+  color: black;
 }
+.objective{
+  background-image: url("5651990.webp");
+  background-size:cover ;
+  background-repeat: no-repeat;
+  width: 100%;
+ height:100%;
+ display: absolute;
 
-.content h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    background: url('C:\Users\tirum\OneDrive\Pictures\lakshmi\portofoli image.png') no-repeat left center;
-    padding-left: 170px;  
-    background-size: 150px 150px; 
-	text-align:center;
-position:absolute;
-top:250;
-left:230px;
 }
+.content{
+  position:relative;
+  padding: 10%;
+  margin-left:9%;
 
-.content h1 span {
-    color: #007BFF;
 }
-
-.content p {
-    font-size: 1.2em; 
-    line-height: 1.6; 
-    margin-bottom: 50px;
-position:absolute;
-top:300px;
-left:250px;
+.objective h1{
+  font-size: 50px;
+  color: rgba(251, 245, 245, 0.555);
+  margin-bottom: -5px;
 }
-
-.content a {
-    display: inline-block;
-    text-decoration: none; 
-    background-color: #007BFF; 
-    color: #fff; 
-    padding: 10px 20px; 
-    border-radius: 5px; 
-    transition: background-color 0.3s;
-position:absolute;
-top:440px;
-left:500px;
+span{
+  color: #780641;
 }
-
-.content a:hover {
-     
-    background-color: #0056b3;
+.objective p{
+  color: #fefdf7dc;
+  line-height: 22px;
+}
+.objective a{
+  background: #212121 ;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffffb9;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
 }
